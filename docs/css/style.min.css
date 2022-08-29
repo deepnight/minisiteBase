@@ -1,0 +1,2 @@
+body{margin:0;padding:0;background-color:#fff;font-family:Arial,Helvetica,sans-serif}canvas{width:1px !important;height:1px !important}#notif{background-color:#000;color:#fff;min-height:1em;position:absolute;top:8px;padding:8px;padding-right:32px;border-top-right-radius:3px;border-bottom-right-radius:3px;pointer-events:none}#notif:empty{visibility:hidden}#site{max-width:960px;padding:4px;margin:auto;margin-top:16px;border:1px solid #d3d3d3}@media(max-width: 400px){#site{margin:0;border:none}}
+/*# sourceMappingURL=style.min.css.map */

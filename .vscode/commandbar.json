@@ -1,0 +1,22 @@
+{
+	"skipTerminateQuickPick": true,
+	"skipSwitchToOutput": false,
+	"skipErrorMessage": true,
+	"commands": [
+		{
+			"text": "👁 Run HTML",
+			"color": "yellow",
+			"alignment": "right",
+			"command": "start index.html",
+			"skipTerminateQuickPick": false,
+			"priority": 1
+		},
+		{
+			"text": "📦 Redist",
+			"alignment": "right",
+			"command": "haxelib run redistHelper js.hxml -o redist docs/css docs/js docs/index.html -ignore style.css,*.scss,*.map",
+			"skipTerminateQuickPick": false,
+			"priority": 0
+		}
+	]
+}
