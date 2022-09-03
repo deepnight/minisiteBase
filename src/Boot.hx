@@ -4,7 +4,6 @@ class Boot extends hxd.App {
 	}
 	override function init() {
 		super.init();
-		hxd.Res.initEmbed();
 		new App();
 	}
 
